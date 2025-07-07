@@ -1,5 +1,5 @@
-from calculator import add
-from calculator import subtract
+from calculator import add, subtract
+
 
 def test_add():
     assert add(4, 5) == 9
