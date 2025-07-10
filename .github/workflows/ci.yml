@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install flake8 pytest
       - name: Lint with flake8
-        run: flake8 --exit-zeroenv
+        run: flake8
       - name: Run tests
         run: python -m pytest
 
