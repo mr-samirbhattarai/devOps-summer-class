@@ -11,3 +11,10 @@ def subtract(a, b):
 # this is code for multiplication
 def multiply(a, b):
     return a * b
+
+
+# this is code for division
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
