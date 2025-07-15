@@ -38,8 +38,7 @@ jobs:
             -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }}
             -Dsonar.sources=.
         # Google Chat notification step add below
-
-        -name: Send Google Chat notification
+      - name: Send Google Chat notification
         if: always()  # Send notification whether job succeeds or fails
         run: |
           curl -X POST -H 'Content-Type: application/json' \
