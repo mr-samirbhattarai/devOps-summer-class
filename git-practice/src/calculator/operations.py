@@ -23,3 +23,10 @@ def divide(a, b):
 # this is exponentiation code
 def exponentiate(base, exponent):
     return base ** exponent
+
+
+# this is modulus code
+def modulus(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a % b
