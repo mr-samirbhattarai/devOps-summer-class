@@ -20,6 +20,6 @@ def divide(a, b):
     return a / b
 
 
-# this
+# this is exponentiation code
 def exponentiate(base, exponent):
     return base ** exponent
